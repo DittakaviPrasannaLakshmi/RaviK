@@ -1,0 +1,7 @@
+public async Task<Model.Customer.CustomerAttributes> GetCustomerAttributes(long longAccountId)
+        {
+            return await Task.Run<Model.Customer.CustomerAttributes>(() =>
+            {
+                return ((new DAL.CustomerAttributes()).GetCustomerAttributes(longAccountId));
+            });
+        }

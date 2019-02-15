@@ -5,3 +5,4 @@ public async Task<Model.Customer.CustomerAttributes> GetCustomerAttributes(long 
                 return ((new DAL.CustomerAttributes()).GetCustomerAttributes(longAccountId));
             });
         }
+this is added from child branch
